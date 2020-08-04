@@ -1,0 +1,71 @@
+@import "variables";
+
+.container {
+  max-width: $website-width;
+  padding: 0 0.75rem;
+  margin: 0 auto;
+  height: 100%;
+  align-items: center;
+}
+
+::selection {
+  background-color: $main-color;
+}
+
+// Headers
+h1 {
+  font-size: 6.5rem;
+  letter-spacing: 0.8rem;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  display: block;
+}
+
+// Paddings
+.py-1 {
+  padding: 10rem 0;
+}
+
+.pyt-1 {
+  padding: 10rem 0 0 0;
+}
+
+.py-2 {
+  padding: 5rem 0;
+}
+
+.pyt-2 {
+  padding: 5rem 0 0 0;
+}
+
+.px-1 {
+  padding: 0 0.75rem;
+}
+
+.my-1 {
+  margin-top: 5rem;
+}

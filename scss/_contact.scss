@@ -1,0 +1,151 @@
+// Form
+#contact {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.5) 75%,
+      #000000 100%
+    ),
+    url(/src/img/bg-signup.jpg) no-repeat center center/cover;
+
+  .contact-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+
+    .subscribe-form {
+      flex: 0 0 66.66%;
+      i {
+        margin-bottom: 0.5rem;
+      }
+
+      h2 {
+        margin-bottom: 3rem;
+      }
+
+      form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+
+        input {
+          margin-right: 0.5rem;
+          height: auto;
+          flex: 1 1 auto;
+          padding: 1.25rem 2rem;
+          font-size: 80%;
+          border-radius: 5px;
+          border: 0;
+          letter-spacing: 0.15rem;
+          outline: none;
+        }
+
+        button {
+          @include main-buttons;
+        }
+
+        input,
+        button {
+          box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  }
+}
+
+// Cards
+.contact-cards {
+  background-color: #000;
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -0.75rem;
+
+    .card-container {
+      width: 100%;
+      padding: 0 0.75rem;
+      position: relative;
+      flex: 0 0 33.33%;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      padding: 1.5rem 0;
+      background-color: #fff;
+      height: 100%;
+      border-radius: 0.25rem;
+      border-bottom: 0.25rem solid $main-color;
+    }
+
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 1 1 auto;
+      text-align: center;
+      padding: 1.25rem;
+
+      i {
+        color: $main-color;
+        padding-bottom: 0.7rem;
+        display: block;
+      }
+
+      h5 {
+        font-family: "Varela Round", sans-serif;
+        font-size: 0.8rem;
+        font-weight: 500;
+      }
+
+      .small-text {
+        color: rgba(0, 0, 0, 0.5);
+
+        a {
+          color: $main-color;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    .line {
+      background-color: $main-color;
+      width: 3rem;
+      height: 0.25rem;
+      margin: 1.5rem 0;
+    }
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 0.5rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.3);
+
+    &:hover i {
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+}

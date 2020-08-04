@@ -1,0 +1,147 @@
+.featured-project {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .featured-text {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 2rem;
+    border-left: 0.5rem solid $main-color;
+
+    h4,
+    p {
+      text-align: left;
+    }
+
+    h4 {
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+
+    p {
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
+.first-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .projects-image-one {
+    flex: 0 0 50%;
+    max-width: 50%;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .projects-text-one {
+    flex: 0 0 50%;
+    max-width: 50%;
+
+    .text-wrap-flex {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      height: 100%;
+      background-color: black;
+    }
+
+    .text-wrap {
+      width: 100%;
+      padding: 5rem;
+      margin: auto 0;
+
+      h4 {
+        color: #fff;
+        text-align: left;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+      }
+
+      p {
+        color: $text-color;
+        text-align: left;
+        letter-spacing: 0.0625em;
+        font-size: 90%;
+      }
+
+      .bottom-line {
+        margin-top: 1rem;
+        height: 0.25rem;
+        width: 30%;
+        background-color: $main-color;
+      }
+    }
+  }
+}
+
+.second-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .projects-text-two {
+    flex: 0 0 50%;
+    max-width: 50%;
+
+    .text-wrap-flex-two {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      height: 100%;
+      background-color: black;
+    }
+
+    .text-wrap-two {
+      width: 100%;
+      padding: 5rem;
+      margin: auto 0;
+
+      h4 {
+        color: #fff;
+        text-align: right;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+      }
+
+      p {
+        color: $text-color;
+        text-align: right;
+        letter-spacing: 0.0625em;
+        font-size: 90%;
+      }
+
+      .bottom-line {
+        margin-top: 1rem;
+        height: 0.25rem;
+        width: 30%;
+        background-color: $main-color;
+        float: right;
+      }
+    }
+  }
+
+  .projects-image-two {
+    flex: 0 0 50%;
+    max-width: 50%;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}

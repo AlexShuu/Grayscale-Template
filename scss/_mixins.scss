@@ -1,0 +1,25 @@
+@mixin important-text {
+  font-size: 2rem;
+  color: #fff;
+}
+
+@mixin main-buttons {
+  font-family: "Varela Round", sans-serif;
+  display: inline-block;
+  padding: 1.25rem 2rem;
+  font-size: 80%;
+  color: #fff;
+  background-color: $main-color;
+  cursor: pointer;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 5px;
+  transition: background-color 0.15s ease-in-out;
+
+  &:hover {
+    color: #fff;
+    background-color: #548b87;
+    border-color: #4f837f;
+  }
+}
