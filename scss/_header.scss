@@ -81,7 +81,7 @@ header {
       rgba(0, 0, 0, 0.7) 75%,
       #000000 100%
     ),
-    url("/src/img/bg-masthead.jpg") no-repeat center center/cover;
+    url("../img/bg-masthead.jpg") no-repeat center center/cover;
 
   .container {
     display: flex;
@@ -99,6 +99,7 @@ header {
         );
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
+        background-clip: text;
         line-height: 6.5rem;
       }
 

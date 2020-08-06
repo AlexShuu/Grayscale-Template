@@ -103,7 +103,7 @@ header {
   left: 0;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("/src/img/bg-masthead.jpg") no-repeat center center/cover; }
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../img/bg-masthead.jpg") no-repeat center center/cover; }
   header .container {
     display: flex;
     justify-content: center;
@@ -115,6 +115,7 @@ header {
         background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
+        background-clip: text;
         line-height: 6.5rem; }
       header .container .master-heading p {
         color: rgba(255, 255, 255, 0.5);
@@ -261,7 +262,7 @@ header {
       height: auto; }
 
 #contact {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url(/src/img/bg-signup.jpg) no-repeat center center/cover; }
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url(../img/bg-signup.jpg) no-repeat center center/cover; }
   #contact .contact-flex {
     display: flex;
     justify-content: center;
